@@ -1,0 +1,71 @@
+body{
+   
+}
+
+.imagegif{
+    display: flex;
+    justify-content: center;
+}
+.imagegif img{
+    width: 56px;
+    height: 56px;
+}
+
+.para{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Calibri', sans-serif;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.subtitle{
+    text-align: center;
+    font-size: 20px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .slides {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .slides img {
+    margin: 0 15px;
+  }
+
+  .slides .specImg{
+    margin-top: 15px;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    font-weight: bold;
+    transform: translateY(-50%);
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.prev {
+    left: 5px;
+}
+
+.next {
+    right: 5px;
+  }
